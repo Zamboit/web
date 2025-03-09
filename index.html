@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY personal website</title>
+    <link rel="stylesheet" href="css/coba2.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="js/coba2.js" defer></script>
+</head>
+<body>
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <audio id="background-audio" autoplay loop>
+        <source src="Audio/1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="audio-control">
+        <button id="audio-toggle">Play/Pause</button>
+    </div>
+
+    <nav>
+        <div class="logo">Mypersonal</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#objective">Objective</a></li>
+            <li><a href="#achievement">Achievement</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My personal website</h1>
+            <p>Innovative solutions for a digital world.</p>
+            <a href="#personal" class="cta">Explore My Work</a>
+        </div>
+        <div class="hero-image">
+            <img src="image/komik.png" alt="My Photo" class="profile-image">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Hai!! kenalin nama aku Moch.Hikmal abrar. aku seorang pelajar dari SMK NEGERI 6 JEMBER yang penuh semangat dan selalu ingin belajar hal-hal baru(yeah, meskipun aku kadang gak belajar :v). Saat ini, aku sedang mengekplorasi di bidang Rekayasa Perangkat Lunak, dan berusaha mengembangkan diri(meskipun gak ada perubahan/perkembangan :v) baik di daalam sekolah maupun di luar sekolah.
+                <p></p>
+                   Selain bersekolah, aku suka menghabiskan waktu dengan bermain video games, olahraga(kadang-kadang), membaca komik, mendengarkan lagu. Aku percaya bahwa masa SMK NEGERI 6 JEMBER adalah waktu yang tepat untuk mencoba banyak hal: menemukan passion, dan membangun fondasi untuk masa depan.
+                <p></p>
+                   Impian ku adalah ketika aku ingin membeli sesuatu, itu langsung bisa membeli nya tanpa harus berpikir "uang ku cukup gak ya". Aku berusaha untuk tidak takut gagal(meskipun sering gagal), aku juga tau karena setiap kegagalan ada pelajaran/pengalaman yang berharga.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="image/foto2.png" alt="About Me">
+            </div>
+        </div>
+    </section>
+
+    <section id="objective" class="objective">
+        <h2>objective</h2>
+        <div class="objective-grid">
+            <div class="objective-item">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="image/Money.jpg" alt="Project 1">
+                        <h3>Money</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Money adalah alat serba guna yang memiliki makna mendalam dalam kehidupan. Uang berfungsi sebagai pemenuh kebutuhan dasar, peningkat kualitas hidup, simbol keberhasilan, dan sumber kebebasan finansial. Selain itu, uang juga dapat digunakan untuk membantu orang lain, mewujudkan impian, dan membangun hubungan sosial. Namun, uang juga bisa menjadi ujian bagi nilai-nilai hidup dan prioritas seseorang. Oleh karena itu, penting bagi manusia untuk mengelola uang secara bijaksana, tidak hanya untuk kepentingan pribadi, tetapi juga untuk kesejahteraan bersama dan keseimbangan hidup.</p>
+                        <a href="#" class="card-cta">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="objective-item">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="image/Trader.jpg" alt="Project 2">
+                        <h3>Trader</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Trader adalah seorang pelaku yang terlibat dalam jual beli aset finansial untuk menghasilkan keuntungan, sekaligus sebagai sarana pembelajaran, pengembangan diri, dan pengelolaan risiko. Aktivitas trading tidak hanya memberikan peluang untuk mencapai kebebasan finansial, tetapi juga mengajarkan disiplin, kesabaran, dan pengambilan keputusan yang bijaksana. Selain itu, trader berkontribusi pada likuiditas pasar dan efisiensi sistem finansial. Dengan demikian, menjadi trader bukan hanya tentang keuntungan materi, tetapi juga tentang pertumbuhan pribadi dan pengelolaan kehidupan yang lebih baik.</p>
+                        <a href="#" class="card-cta">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="objective-item">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="image/Never.jpg" alt="Project 3">
+                        <h3>Never Give Up</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>"never give up" (tidak pernah menyerah) adalah sikap pantang menyerah yang mencerminkan ketekunan, ketahanan mental, dan keyakinan untuk terus berjuang menghadapi tantangan atau kegagalan. Prinsip ini mengajarkan kita bahwa setiap rintangan adalah bagian dari proses menuju kesuksesan, dan dengan tetap gigih, kita dapat mencapai tujuan, tumbuh sebagai pribadi, serta menginspirasi orang lain. "Never give up" adalah pengingat bahwa selama kita terus berusaha, peluang untuk meraih hasil yang diinginkan selalu ada.</p>
+                        <a href="#" class="card-cta">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievement" class="achievement">
+        <h2>Achievement</h2>
+        <div class="achievement-container">
+            <div class="achievement-image">
+                <img src="image/Medali.png" alt="Achievement 1">
+            </div>
+            <div class="achievement-details">
+                <h3>Juara 2 lomba lari antar kelas</h3>
+                <p>
+                    Saya berhasil meraih juara 2 dalam kompetisi lari yang diselenggarakan oleh bapak/ibu guru. Kompetisi ini diikuti sekitar 15/20 peserta dari seluruh kelas.
+                <p><strong>Lokasi:</strong> Wringinagung</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="number" placeholder="Your Phone Number" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mypersonal website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
